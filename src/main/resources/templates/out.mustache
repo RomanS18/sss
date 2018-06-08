@@ -1,0 +1,20 @@
+<html>
+
+<body>
+
+<a href="/list">Переход на страницу авторизации в интернет-магазине</a>
+    <div>
+            <form action="/logout" method="post">
+                <input type="hidden" name="_csrf" value="{{_csrf.token}}" />
+                <input type="submit" value="Покинуть сайт"/>
+            </form>
+        </div>
+<div>
+    <form action="/list" >
+        <input type="hidden" name="_csrf" value="{{_csrf.token}}" />
+        <input type="submit" value="Вернуться к товарам"/>
+    </form>
+</div>
+
+</body>
+</html>
