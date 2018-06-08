@@ -1,4 +1,4 @@
-.single-goods {
+.single-eshop {
     width: 200px;
     height: 300px;
     border: 1px solid black;
@@ -6,7 +6,11 @@
     float: left;
     text-align: center;
 }
-.single-goods button {
+.single-eshop button {
     display: block;
     margin: 20px auto;
+}
+.single-eshop img {
+    width: 150px;
+    height: 150px;
 }
